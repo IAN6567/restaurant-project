@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="TOP">
+    <header class="main-header">
       <div class="header-container">
         <nav class="navbar">
           <a href="index.html" class="logo">
@@ -15,17 +15,32 @@
               src="./logo.restaurant.png"
               alt="Mist and Stone Restaurant Logo"
             />
-            The Mist & Stone
+            <div class="brand">
+              <span>Mist & Stone</span>
+              <small class="tagline">A Highland Haven of Flavor</small>
+            </div>
           </a>
           <ul class="nav-links">
-            <li><a href="index.html" class="active">HOME</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="index.html" class="active"
+                ><ion-icon name="home-outline"></ion-icon> Home</a
+              >
+            </li>
+            <li>
+              <a href="about.html"
+                ><ion-icon name="information-circle-outline"></ion-icon>
+                About</a
+              >
+            </li>
+            <li>
+              <a href="contact.html"
+                ><ion-icon name="call-outline"></ion-icon> Contact</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-
     <main>
       <!-- Section 1: Welcome -->
       <section class="home-section welcome">
@@ -37,6 +52,7 @@
               At Mist & Stone, every visit begins with a warm welcome and ends
               with a lasting memory.
             </p>
+            <a href="about.html" class="cta-button">View Our Menu</a>
           </div>
           <div class="image">
             <img
@@ -63,6 +79,9 @@
               chefs craft each dish with passion, blending tradition with
               innovation.
             </p>
+            <a href="about.html#cuisine" class="cta-button"
+              >Explore Our Cuisine</a
+            >
           </div>
         </div>
       </section>
@@ -76,6 +95,7 @@
               Dine against a backdrop of rolling hills and misty landscapes.
               Whether it's sunrise or sunset, the view is always on the menu.
             </p>
+            <a href="gallery.html" class="cta-button">See the Scenery</a>
           </div>
           <div class="image">
             <img
@@ -102,12 +122,46 @@
               arrive to your final sip of tea, expect warmth, care, and genuine
               service.
             </p>
+            <a href="contact.html" class="cta-button">contact us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Amenities Section -->
+      <section class="amenities">
+        <div class="amenities-container">
+          <h2>Our Amenities</h2>
+          <div class="amenities-grid">
+            <div class="amenity-card">
+              <ion-icon name="football-outline"></ion-icon>
+              <h3>Playing Grounds</h3>
+              <p>Spacious fields for football, darts, and outdoor games.</p>
+            </div>
+            <div class="amenity-card">
+              <ion-icon name="water-outline"></ion-icon>
+              <h3>Swimming Pool</h3>
+              <p>Crystal-clear pools perfect for relaxation and fun.</p>
+            </div>
+            <div class="amenity-card">
+              <ion-icon name="restaurant-outline"></ion-icon>
+              <h3>Fine Dining</h3>
+              <p>Enjoy locally inspired cuisine in a serene setting.</p>
+            </div>
+            <div class="amenity-card">
+              <ion-icon name="game-controller-outline"></ion-icon>
+              <h3>Darts & Lounge</h3>
+              <p>Challenge friends to a game of darts in our cozy lounge.</p>
+            </div>
+            <div class="amenity-card">
+              <ion-icon name="boat-outline"></ion-icon>
+              <h3>Boating</h3>
+              <p>Experience the thrill of boat rides on our scenic lake.</p>
+            </div>
           </div>
         </div>
       </section>
     </main>
-
-    <footer>
+    <footer class="main-footer">
       <div class="footer-container">
         <nav class="navbar">
           <a href="index.html" class="logo">
@@ -115,12 +169,28 @@
               src="./logo.restaurant.png"
               alt="Mist and Stone Restaurant Logo"
             />
-            The Mist & Stone
+            <div class="brand">
+              <span>Mist & Stone</span>
+              <small class="tagline">A Highland Haven of Flavor</small>
+            </div>
           </a>
           <ul class="nav-links">
-            <li><a href="index.html" class="active">HOME</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="index.html"
+                ><ion-icon name="home-outline"></ion-icon> Home</a
+              >
+            </li>
+            <li>
+              <a href="about.html"
+                ><ion-icon name="information-circle-outline"></ion-icon>
+                About</a
+              >
+            </li>
+            <li>
+              <a href="contact.html"
+                ><ion-icon name="call-outline"></ion-icon> Contact</a
+              >
+            </li>
           </ul>
           <div class="social-icons">
             <a
